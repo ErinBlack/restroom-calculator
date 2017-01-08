@@ -1,12 +1,136 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
 
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> 
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,requiresActiveX=true">
+	
+	<title>Porta Potty Calculator | Portable Restroom Calculator</title>	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+</head>		
+<body>
+	<h1>Special Event<br />Portable Restroom Calculator</h1>
+	<h2>Portable Restrooms | Enhanced Access Restrooms | Hand Wash Stations</h2>
+	
+<!-- Start of calculator -->
+
+	<div id="wrapper">	
+	<div id="calc-back">
+	<!-- Start Calc Header -->	
+		<header>
+			<div id="logo"><img src="http://onsiteco.com/wp-content/uploads/2015/04/onsite_logo.png" width="40%"></div>
+				<div id="calc-head">
+					<h3>Portable Restroom Calculator</h3>
+				</div>
+		</header>
+	<!-- Start Calculator Form -->	
+	<form id="calculator" name="calculator">
+		
+		<table id="cal-table" style="border: none;">
+			<tbody>
+				
+				<tr>
+				<!-- Attendees Dropdown-->	
+					<td width="50%" id="calculator-td">
+						<span id="questions">Estimated Number of Attendees<br/><span>
+						<select name="attending" size="1" onchange="calculateRestrooms(this)">
+							<option value="0">Choose #</option>
+							<option value="Less than 50">50</option>
+							<option value="100">100</option>
+							<option value="250">200</option>
+							<option value="300">300</option>
+							<option value="400">400</option>
+							<option value="500">500</option>
+							<option value="1000">1,000</option>
+							<option value="2000">2,000</option>
+							<option value="3000">3,000</option>
+							<option value="4000">4,000</option>
+							<option value="5000">5,000</option>
+							<option value="6000">6,000</option>
+							<option value="7000">7,000</option>
+							<option value="8000">8,000</option>
+							<option value="10000">10,000</option>
+							<option value="15000">15,000</option>
+							<option value="20000">20,000</option>
+						</select></h3>
+					</td>
+					</tr>
+					<tr>
+					<td width="50%" id="calculator-td">
+					<!-- Event Duration Dropdown-->	
+						<span id="questions">Event Duration (in hours) <br /></span>
+						<select name="duration" size="1" onchange="calculateRestrooms(this)">
+							<option selected="selected" value="1">1</option>
+							<option selected="selected" value="2">2</option>
+							<option selected="selected" value="3">3</option>
+							<option selected="selected" value="4">4</option>
+							<option selected="selected" value="5">5</option>
+							<option selected="selected" value="6">6</option>
+							<option selected="selected" value="7">7</option>
+							<option selected="selected" value="8">8</option>
+							<option selected="selected" value="9">9</option>
+							<option selected="selected" value="10">10</option>
+						</select></h3>
+					</td>
+				</tr>
+
+				<!-- Radio Buttons for Demographics-->	
+
+				<tr>
+					<td colsapn="2"  valign="middle" height="60" id="calculator-td">
+						<div class="radioQuestion">
+							<span id="questions">Will There be More Women Than Men? <br /></span>
+								<input class="cal-input"  onclick="calculateRestrooms(this)" type="radio" name="women" value="1.13" /> <span class="radio">Yes</span>
+								<input class="cal-input"  onclick="calculateRestrooms(this)" type="radio" name="women" value="1" checked="checked" /> <span class="radio">No</span>
+						</div>
+						<div class="radioQuestion">
+						<span id="questions">Will Alcohol be Served?<br /></span>
+							<input class="cal-input" onclick="calculateRestrooms(this)" type="radio" name="alcohol" value="1.13" checked="checked" /> <span class="radio">Yes</span>
+							<input class="cal-input" onclick="calculateRestrooms(this)" type="radio" name="alcohol" value="1" checked="checked" /> <span class="radio"> No</span>
+						
+					</td>
+				</tr>
+
+			<!-- How Many Restrooms and Hand Wash Stations You'll Need-->	
+			<tr>
+					<td colspan="2" height="60" id="calculator-td">
+						<div id="restrooms">
+						<a href="http://onsiteco.com/special-events-2/special-event-portable-restroom/"><p>Estimated Standard Portable<br /> Restrooms Needed:</p></a>
+							<input class="phoneNum" type="text" name="num_required" size="4" maxlength="15" align="center" />
+						</div>
+						<div id="restrooms">
+							<a href="http://onsiteco.com/special-events-2/special-event-hand-wash-station/"><p>Estimated Hand Wash<br /> Stations Needed: </p></a>
+							<input class="phoneNum" type="text" name="sinks_required" size="4" max-length="15" align="center" />
+						</div>
+						<div id="restrooms">
+							<a href="http://onsiteco.com/special-events-2/wheelchair-accessible-portable-restroom/"><p>Estimated Enhanced Access<br /> Restrooms Needed </p></a>
+							<input class="phoneNum" type="text" name="handicapped_required" size="4" maxlength="15" align="center" />
+						</div>
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+	</div>
+	</div>
+
+<!-- End of Calculator -->
+
+
+			<p>The On Site Companies portable restroom calculator is intended to be a tool to help estimate the number of portable restrooms your event will need. We take things into account like, the length of the event, if alcohol is served, and whether there are more females than males attending.</p>
+<p>This is meant to be only a tool to help estimate the number of portable restrooms that you should rent. Your On Site customer service representative will be able to assist you further in decided the exact amount of restrooms is appropriate.</p>
+<p>If your calculation is between one and two restrooms, you may want to consider one of our <a href="http://onsiteco.com/special-events-2/instant-party-packages/">Instant Party Packages</a>. These packages contain a range of <a href="http://onsiteco.com/special-events-2/special-event-portable-restroom/">portable restrooms,</a> <a href="http://onsiteco.com/special-events-2/special-event-hand-wash-station/">hand washing stations</a> and <a href="http://onsiteco.com/special-events-2/trash-box/">cardboard trash boxes</a> save you hassle and money.</p>
+
+
+<!--	 Javascript Files -->
+<script type='text/javascript' src='calculator.js'></script>
 
 <script type='text/javascript' src='http://onsiteco.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript' src='http://onsiteco.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 </body>
-</html>

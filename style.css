@@ -1,0 +1,134 @@
+/* Font Styles */
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	color: #ad172b;
+	margin-bottom: 14px;
+    font-size: 2.5em;
+    line-height: 56px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	color: #4B5759;
+	margin-bottom: 14px;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 500;
+}
+
+h3 {
+	color: #5a95b7;
+	font-size: 1.9em;
+	font-family: 'Raleway', sans-serif;
+	margin: 20px 0 20px 0 ;
+	font-weight: 700;
+}
+
+
+
+#questions {
+	font-family: Raleway,sans-serif;
+    font-size: 1.3em;
+    color: #5a95b7!important;
+    font-weight: 300;
+    margin: 0 0 20px 0 ;
+}
+
+.radio {    
+	font-family: Raleway,sans-serif;
+    font-size: 1em;
+    color: #5a95b7;
+}
+.checkbox, .radio {
+    min-height: 18px;
+    padding-left: 18px;
+}
+
+#restrooms p {
+    font-family: Montserrat,sans-serif;
+    font-size: 1.3em;
+    color: #5a95b7;
+    float: left;
+}
+.phoneNum {
+    float: right;
+    padding: 10px;
+}
+input, select, textarea {
+    display: block;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #bbbfc0;
+    margin-bottom: 10px;
+    background: #fff;
+    color: #666;
+    font: 13px 'Open Sans',Arial,sans-serif;
+}
+/*Wrappers and Body Styles */
+
+#wrapper {
+	max-width: 500px;
+    margin: 0 auto;
+    background-color: #5a95b7;
+    border-radius: 25px;
+    height: 100%;
+}
+
+#calc-back{
+	margin: 0 30px;
+    padding-top: 10px;
+    height: 100%;
+}
+
+/*Header Styles */
+#calc-back header {
+	margin-top: 20px;
+	background-color: #eaebec;
+	padding: 2%;
+	border-bottom: solid 25px #5a95b7;
+
+}
+#calc-head {
+	margin: 20px 0 0 0;
+}
+
+/*Calculator Styles*/
+#calculator {
+	background-color: #eaebec;
+	padding: 3%
+}
+
+select {
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #bbbfc0;
+    margin: 10px 0;
+    background: #fff;
+    color: #666;
+    font: 13px 'Open Sans',Arial,sans-serif;
+}
+
+.radioQuestion {
+	margin-top: 20px;
+
+}
+.cal-input {
+    display: inline;
+    margin: 0 0 0 30px;
+    border: 0;
+    color: #903;
+    font-size: 2em;
+    padding-top: 15px;
+}
+
+#restrooms {
+    overflow: hidden;
+     margin: 15px 0 0;
+}
+
+
