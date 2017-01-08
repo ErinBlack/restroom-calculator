@@ -1,1 +1,2 @@
-# restroom-calculator
+# Restroom Calculator
+This calculator determines the number of restrooms and hand washing stations you need for your event using inputs such as: number of attendees, length of the event, and gender of the majority of attendees.
